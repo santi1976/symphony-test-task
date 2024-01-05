@@ -11,9 +11,7 @@ Authorization”
 appears
 4) Finally print found objects to console
 
-#  Create (design and implement) an automated UI test using any any UI JS framework or
-#  library (Cypress with JavaScript; Playwright with TypeScript, WebdriverIO, etc.)
-#  UI Test should do the following:
+#  Create (design and implement) an automated UI test using any any UI JS framework or library (Cypress with JavaScript; Playwright with TypeScript, WebdriverIO, etc.) UI Test should do the following:
 1) Go to https://www.saucedemo.com/
 2) Log in to the site. Verify that the items are sorted by Name ( A -&gt; Z ).
 3) Change the sorting to Name ( Z -&gt; A).
