@@ -1,0 +1,15 @@
+{
+  "name": "symphony",
+  "version": "1.0.0",
+  "description": "Create (design and implement) an automated API test using any JS framework or library (e.g., Request with Cypress; Playwright with request, etc.). Deadline: +24 hours",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.2"
+  }
+}
