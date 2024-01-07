@@ -27,12 +27,10 @@
 const baseUrl = Cypress.env("CYPRESS_BASE_URL");
 
 Cypress.Commands.add('login', (user, password) => {
-    //cy.session([user, password], () => {
       cy.visit(baseUrl);
       cy.get('[data-test="username"]').type(user);
       cy.get('[data-test="password"]').type(password);
-      cy.get('[data-test="login-button"]').click();
-    //})
+      cy.get('[data-test="login-button"]').click(); 
 }) 
 
 
