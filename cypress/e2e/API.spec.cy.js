@@ -1,8 +1,8 @@
-const baseURL = Cypress.env("CYPRESS_BASE_ENDPOINT");
+const baseEndpoint = Cypress.env("CYPRESS_ENDPOINT");
 
 describe("GET Public API's - Entries", () => {
     it("Status 200", () => {
-        cy.request("GET", baseURL).should((response) => {
+        cy.request("GET", baseEndpoint).should((response) => {
         expect(response.status).to.eq(200);
         expect(response.body).to.have.property('entries');
         });
@@ -10,7 +10,7 @@ describe("GET Public API's - Entries", () => {
 
 
     it('Entries with Authentication & Authorization', () => {
-        cy.request(baseURL)  
+        cy.request(baseEndpoint)  
         .its('body.entries').then((entries)=>{
             const authEntries = entries.filter((item) => {
                 return item.Category === 'Authentication & Authorization';
