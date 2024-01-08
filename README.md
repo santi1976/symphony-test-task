@@ -1,3 +1,34 @@
+# Instructions:
+
+## Locally:
+1. **Clone the repository:** 
+    ```sh
+    https://github.com/santi1976/symphony-test-task.git
+    ```
+
+2. **Navigate to the project directory:** 
+    ```sh
+    cd symphony-test-task
+    ```
+3. **Install dependencies:** 
+    ```sh
+    npm install
+    ```
+4. **Run the test:** `npm run chrome` (to run Chrome in headless mode)
+     ```sh
+    npm run chrome (to run Chrome in headless mode)
+    ```
+
+## On CI (GitLab CI/CD):
+1. Ensure you have the "Maintainer" role to run the pipeline (Request an invitation from the owner at santiso@gmail.com).
+2. Navigate to the [CI/CD Pipelines](https://gitlab.com/santo76/ss-test-task/-/pipelines/new) section.
+3. Click on "Run Pipeline" to trigger the CI/CD pipeline.
+
+
+***
+
+### Below, you'll find the task I was assigned to create this test.
+
 # symphony-test-task
 Create (design and implement) an automated API test using any JS framework or library
 (e.g., Request with Cypress; Playwright with request, etc.).
@@ -34,3 +65,4 @@ GitLab, etc.).
 - Create “.gitlab-ci.yml” file in project
 - Make sure CI/CD pipeline works
 - Show tests run in a pipeline in CI/CD of the Gitlab project.
+
