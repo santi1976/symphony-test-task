@@ -1,0 +1,12 @@
+stages:
+  - test
+
+test:
+  image: cypress/browsers:node18.12.0-chrome107
+  stage: test
+
+  script:
+    - npm ci
+    - echo "Using BaseUrl and Endpoint $CY_BASE_URL, $CY_ENDPOINT"
+    - echo "Using my credentials $CY_USER, $CY_PASSWORD"
+    - npm run chrome
