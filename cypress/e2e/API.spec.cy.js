@@ -1,4 +1,4 @@
-const baseEndpoint = Cypress.env("CYPRESS_ENDPOINT");
+const baseEndpoint = Cypress.env("ENDPOINT");
 
 describe("GET Public API's - Entries", () => {
     it("Status 200", () => {

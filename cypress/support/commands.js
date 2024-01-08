@@ -24,7 +24,7 @@
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
-const baseUrl = Cypress.env("CYPRESS_BASE_URL");
+const baseUrl = Cypress.env("BASE_URL");
 
 Cypress.Commands.add('login', (user, password) => {
       cy.visit(baseUrl);

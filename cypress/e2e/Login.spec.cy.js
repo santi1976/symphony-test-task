@@ -1,6 +1,6 @@
-const baseUrl = Cypress.env("CYPRESS_BASE_URL");
-const user = Cypress.env("CYPRESS_USER");
-const password = Cypress.env("CYPRESS_PASSWORD");
+const baseUrl = Cypress.env("BASE_URL");
+const user = Cypress.env("USER");
+const password = Cypress.env("PASSWORD");
 
 describe('Login and Sort', () => {
   beforeEach(() => {
